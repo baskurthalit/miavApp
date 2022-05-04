@@ -7,9 +7,6 @@ Miav APP, Kedi türlerinin listesini ve çeşitli özelliklerine erişimi kapsay
 * [Görseller](#uygulama-görselleri)
 * [Video](#video)
 * [Uygulama Özellikleri](#uygulama-özellikleri)
-* [Gereksinimler](#gereksinimler)
-* [Kurulum](#kurulum)
-* [Geliştirme Süreci](#geliştirme-süreci)
 ## Video
 Video için [tıklayınız](https://drive.google.com/file/d/1jq_hr2BqY1mOn79YZrnykHnTdv8rKpfC/view?usp=sharing).
 # Uygulama Görselleri
