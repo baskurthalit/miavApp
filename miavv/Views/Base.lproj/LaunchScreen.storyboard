@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rQT-pO-Z8m">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="catForSearchBar" translatesAutoresizingMaskIntoConstraints="NO" id="DD8-Ie-QqZ">
+                                <rect key="frame" x="0.0" y="184" width="414" height="270"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="miavv" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TPz-Ty-xML">
+                                <rect key="frame" x="159" y="484" width="97" height="42"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2T7-NB-jza"/>
+                        <color key="backgroundColor" name="backRoundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="DD8-Ie-QqZ" secondAttribute="trailing" id="0Vk-oh-vq1"/>
+                            <constraint firstItem="DD8-Ie-QqZ" firstAttribute="top" secondItem="2T7-NB-jza" secondAttribute="top" constant="140" id="0j5-3k-SKr"/>
+                            <constraint firstItem="DD8-Ie-QqZ" firstAttribute="leading" secondItem="rQT-pO-Z8m" secondAttribute="leading" id="32G-WZ-Hrq"/>
+                            <constraint firstItem="2T7-NB-jza" firstAttribute="bottom" secondItem="TPz-Ty-xML" secondAttribute="bottom" constant="336" id="3pf-FO-LfM"/>
+                            <constraint firstItem="2T7-NB-jza" firstAttribute="bottom" secondItem="DD8-Ie-QqZ" secondAttribute="bottom" constant="408" id="Fqh-p3-NZI"/>
+                            <constraint firstItem="TPz-Ty-xML" firstAttribute="leading" secondItem="2T7-NB-jza" secondAttribute="leading" constant="159" id="JGy-m9-ewt"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="catForSearchBar" width="681" height="623"/>
+        <namedColor name="backRoundColor">
+            <color red="0.94099998474121094" green="0.94499999284744263" blue="0.94499999284744263" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>
